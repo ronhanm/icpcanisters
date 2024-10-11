@@ -1,0 +1,54 @@
+.
+|-- README.md
+|-- canister_ids.json
+|-- dfx.json
+|-- directory_structure.txt
+|-- fr.txt
+|-- package-lock.json
+|-- package.json
+|-- src
+|   |-- declarations
+|   |   |-- eth_cketh_bridge_backend
+|   |   |   |-- eth_cketh_bridge_backend.did
+|   |   |   |-- eth_cketh_bridge_backend.did.d.ts
+|   |   |   |-- eth_cketh_bridge_backend.did.js
+|   |   |   |-- index.d.ts
+|   |   |   `-- index.js
+|   |   |-- eth_cketh_bridge_frontend
+|   |   |   |-- eth_cketh_bridge_frontend.did
+|   |   |   |-- eth_cketh_bridge_frontend.did.d.ts
+|   |   |   |-- eth_cketh_bridge_frontend.did.js
+|   |   |   |-- index.d.ts
+|   |   |   `-- index.js
+|   |   `-- internet_identity
+|   |       |-- index.d.ts
+|   |       |-- index.js
+|   |       |-- internet_identity.did
+|   |       |-- internet_identity.did.d.ts
+|   |       `-- internet_identity.did.js
+|   |-- eth_cketh_bridge_backend
+|   |   `-- main.mo
+|   `-- eth_cketh_bridge_frontend
+|       |-- package.json
+|       |-- src
+|       |   |-- app.d.ts
+|       |   |-- app.html
+|       |   |-- index.scss
+|       |   |-- lib
+|       |   |   `-- canisters.js
+|       |   |-- routes
+|       |   |   |-- +layout.js
+|       |   |   `-- +page.svelte
+|       |   |-- setupTests.js
+|       |   |-- tests
+|       |   |   `-- App.test.js
+|       |   `-- vite-env.d.ts
+|       |-- static
+|       |   |-- favicon.ico
+|       |   `-- logo2.svg
+|       |-- svelte.config.js
+|       |-- tsconfig.json
+|       `-- vite.config.js
+`-- tsconfig.json
+
+13 directories, 39 files

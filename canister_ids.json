@@ -1,0 +1,11 @@
+{
+  "eth_cketh_bridge_backend": {
+    "ic": "hs5lq-nqaaa-aaaak-qln7a-cai"
+  },
+  "eth_cketh_bridge_frontend": {
+    "ic": "r62qs-diaaa-aaaak-qlofq-cai"
+  },
+  "my_wallet": {
+    "ic": "rf7mx-zqaaa-aaaak-qloha-cai"
+  }
+}

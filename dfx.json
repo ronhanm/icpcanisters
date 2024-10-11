@@ -1,0 +1,49 @@
+{
+  "canisters": {
+    "eth_cketh_bridge_backend": {
+      "declarations": {
+        "node_compatibility": true
+      },
+      "main": "src/eth_cketh_bridge_backend/main.mo",
+      "type": "motoko"
+    },
+    "eth_cketh_bridge_frontend": {
+      "dependencies": [
+        "eth_cketh_bridge_backend"
+      ],
+      "source": [
+        "src/eth_cketh_bridge_frontend/dist"
+      ],
+      "type": "assets",
+      "workspace": "eth_cketh_bridge_frontend"
+    },
+    "internet_identity": {
+      "candid": "https://github.com/dfinity/internet-identity/releases/latest/download/internet_identity.did",
+      "frontend": {},
+      "remote": {
+        "id": {
+          "ic": "rdmx6-jaaaa-aaaaa-aaadq-cai"
+        }
+      },
+      "type": "custom",
+      "wasm": "https://github.com/dfinity/internet-identity/releases/latest/download/internet_identity_dev.wasm.gz"
+    }
+  },
+  "defaults": {
+    "build": {
+      "args": "",
+      "packtool": ""
+    }
+  },
+  "output_env_file": ".env",
+  "networks": {
+    "ic": {
+      "providers": [
+        "https://ic0.app"
+      ],
+      "wallet": "odgz3-pqpud-dkqgv-vh675-5gfrc-tgqii-bpqbi-ejlfc-bszli-rahdo-zqe",
+      "type": "persistent"
+    }
+  },
+  "version": 1
+}
